@@ -33,13 +33,9 @@ const config = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:
-            'https://github.com/howdy-mj/algorithms',
         },
         blog: {
           showReadingTime: true,
-          editUrl:
-            'https://github.com/howdy-mj/algorithms',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
