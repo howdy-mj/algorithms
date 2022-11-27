@@ -68,11 +68,6 @@ const config = {
             label: '이론',
           },
           {to: '/blog', label: '풀이', position: 'left'},
-          {
-            href: 'https://github.com/howdy-mj/algorithms',
-            label: 'GitHub',
-            position: 'right',
-          },
         ],
       },
       footer: {
@@ -85,17 +80,25 @@ const config = {
                 label: '이론',
                 to: '/docs/intro',
               },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
               {
                 label: '풀이',
                 to: '/blog',
               },
             ],
           },
+          {
+            title: 'Etc.',
+            items: [
+              {
+                label: '기술 블로그',
+                href: 'https://www.howdy-mj.me/'
+              },
+              {
+                label: 'Github',
+                href: 'https://github.com/howdy-mj'
+              }
+            ]
+          }
         ],
         // copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
