@@ -81,7 +81,7 @@ const config = {
             items: [
               {
                 label: 'Theory',
-                to: '/docs/theory',
+                to: '/docs/intro',
               },
             ],
           },
