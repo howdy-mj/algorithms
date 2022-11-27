@@ -57,8 +57,8 @@ const config = {
       navbar: {
         title: 'Algorithms',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'howdy-mj Logo',
+          src: 'img/logo.png',
         },
         items: [
           {
