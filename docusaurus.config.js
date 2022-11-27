@@ -63,9 +63,9 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Theory',
+            label: '이론',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: '풀이', position: 'left'},
           {
             href: 'https://github.com/howdy-mj/algorithms',
             label: 'GitHub',
@@ -80,7 +80,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Theory',
+                label: '이론',
                 to: '/docs/intro',
               },
             ],
@@ -89,7 +89,7 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
+                label: '풀이',
                 to: '/blog',
               },
             ],
