@@ -29,9 +29,8 @@ const config = {
 
   presets: [
     [
-      'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
+      '@docusaurus/preset-classic',
+      {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
@@ -45,7 +44,10 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-      }),
+        googleAnalytics: {
+          trackingID: 'G-7VRQDB18CC',
+        },
+      },
     ],
   ],
 
