@@ -34,7 +34,9 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
         },
+        // docs: false,
         blog: {
+          routeBasePath: '/',
           showReadingTime: true,
         },
         theme: {
@@ -63,41 +65,34 @@ const config = {
             position: 'left',
             label: '이론',
           },
-          {to: '/blog', label: '풀이', position: 'left'},
-        ],
-      },
-      footer: {
-        style: 'dark',
-        links: [
           {
-            title: 'Docs',
-            items: [
-              {
-                label: '이론',
-                to: '/docs/intro',
-              },
-              {
-                label: '풀이',
-                to: '/blog',
-              },
-            ],
+            label: '기술 블로그',
+            href: 'https://www.howdy-mj.me/',
+            position: 'left',
           },
           {
-            title: 'Etc.',
-            items: [
-              {
-                label: '기술 블로그',
-                href: 'https://www.howdy-mj.me/'
-              },
-              {
-                label: 'Github',
-                href: 'https://github.com/howdy-mj'
-              }
-            ]
-          }
+            label: 'Github',
+            href: 'https://github.com/howdy-mj',
+            position: 'right',
+          },
         ],
-        // copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
+      // footer: {
+      //   style: 'dark',
+      //   links: [
+      //     {
+      //       title: 'Etc.',
+      //       items: [
+      //         {},
+      //         {
+      //           label: 'Github',
+      //           href: 'https://github.com/howdy-mj',
+      //         },
+      //       ],
+      //     },
+      //   ],
+      //   // copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      // },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
