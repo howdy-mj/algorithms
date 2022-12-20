@@ -66,6 +66,11 @@ const config = {
             label: '이론',
           },
           {
+            label: '태그',
+            href: '/tags',
+            position: 'left',
+          },
+          {
             label: '기술 블로그',
             href: 'https://www.howdy-mj.me/',
             position: 'left',
